@@ -32,11 +32,22 @@ h2 {
 .img01, .text01 {
 	background-color: #DFDFDF;
 	padding: 10px;
+	text-align: center;
+}
+
+.text01 {
+	text-align: justify;
+}
+
+.btn {
+	text-align: center;
+	padding: 15px;
 }
 
 .img02, .text02 {
 	background-color: #eee;
 	padding: 10px;
+	text-align: center;
 }
 
 .button {
@@ -64,6 +75,7 @@ h2 {
 
 .icon-link {
 	text-decoration: none;
+	color: black;
 }
 
 
@@ -131,6 +143,7 @@ h2 {
 
 	.img-item {
 		width: 90%;
+		padding: 20px;
 	}
 
 	.footer-text {
@@ -157,6 +170,11 @@ h2 {
 
 	.img-item {
 		width: 90%;
+		padding: 10px;
+	}
+
+	.text02 {
+		height: 511px;
 	}
 
 	.grid-item {
