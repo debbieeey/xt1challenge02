@@ -9,10 +9,7 @@ body {
 	display: flex;
 }
 
-.logo {
-	width: 20%;
-	padding: 10px;
-}
+
 
 .nav-logo {
 	width: 50%;
@@ -103,7 +100,7 @@ h2 {
 	}
 
 	.nav-link {
-		padding: 10px;
+		padding: 15px;
 		color: #E99B01;
 	}
 }
@@ -129,6 +126,11 @@ h2 {
 /*-------mobile----------*/
 @media only screen and (max-width: 425px) {
 
+	.logo {
+		width: 50%;
+		padding: 10px;
+	}
+
 	.banner {
 		width: 100%;
 		height: 200px;
@@ -149,13 +151,22 @@ h2 {
 	.footer-text {
 		padding: 15px;
 	}
+
+	.text01 {
+		padding: 25px;
+	}
 }
 
 /*-------tablet--------*/
 @media only screen and (min-width: 426px) and (max-width: 768px) {
 
+	.logo {
+		width: 40%;
+		padding: 10px;
+	}
+
 	.grid-container {
-		grid-template-columns: auto auto;
+		grid-template-columns: 50% 50%;
 	}
 
 	.banner {
@@ -173,12 +184,12 @@ h2 {
 		padding: 10px;
 	}
 
-	.text02 {
-		height: 511px;
+	.text01 {
+		padding: 20px;
 	}
 
-	.grid-item {
-
+	.text02 {
+		height: 520px;
 	}
 
 	.footer {
@@ -194,43 +205,10 @@ h2 {
 /*desktop*/
 @media only screen and (min-width: 769px) and (max-width: 1024px) {
 
-	h2 {
-		text-align: left;
+	.logo {
+		width: 55%;
+		padding: 10px;
 	}
-	.grid-container {
-		grid-template-columns: 50% 50%;
-	}
-
-	.banner {
-		width: 100%;
-		/*height: 300px;*/
-		grid-column: 1;
-		grid-row: 1 / span 2;
-	}
-
-	.banner-item {
-		width: 100%;
-	}
-
-	.img-item {
-		width: 90%;
-	}
-
-	.grid-item {
-
-	}
-
-	.footer-text {
-		padding: 75px;
-	}
-
-	.footer {
-		display: flex;
-	}
-}
-
-/*desktop hd*/
-@media only screen and (min-width: 1025px) {
 
 	h2 {
 		text-align: left;
@@ -254,8 +232,11 @@ h2 {
 		width: 80%;
 	}
 
-	.grid-item {
-
+	.img01 {
+		padding: 20px;
+	}
+	.text01 {
+		padding: 30px;
 	}
 
 	.footer-text {
@@ -265,4 +246,68 @@ h2 {
 	.footer {
 		display: flex;
 	}
+	
+	.button {
+		font-size: 16px;
+	}
+}
+
+/*desktop hd*/
+@media only screen and (min-width: 1025px) {
+
+	.logo {
+		width: 40%;
+		padding: 25px;
+	}
+
+	.nav-link {
+		font-size: 24px;
+	}
+
+	h2 {
+		text-align: left;
+	}
+
+	.grid-container {
+		grid-template-columns: 50% 50%;
+	}
+
+	.banner {
+		width: 100%;
+		/*height: 300px;*/
+		grid-column: 1;
+		grid-row: 1 / span 2;
+		/*background-image: url("img/winkel.jpg");
+		background-repeat: no-repeat;
+		background-position: center;*/
+	}
+
+	.banner-item {
+		width: 100%;
+	}
+
+	.img-item {
+		width: 70%;
+	}
+
+	.text01 {
+		padding: 50px;
+	}
+
+	.footer-text {
+		padding: 75px;
+	}
+
+	.footer {
+		display: flex;
+	}
+	
+	.button {
+		font-size: 18px;
+	}
+
+	.kaasontdekking {
+		font-size: 24px;
+	}
+
 }
