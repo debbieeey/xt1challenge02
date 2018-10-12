@@ -86,7 +86,7 @@ h2 {
 		margin-left: 0;
 	}
 
-	.nav-link-toggle {
+	.nav-menu-toggle {
 		align-self: flex-end;
 		display: initial;
 		position: absolute;
@@ -116,7 +116,7 @@ h2 {
 		color: #E99B01;
 	}
 
-	.nav-link-toggle {
+	.nav-menu-toggle {
 		display: none;
 	}
 }
@@ -156,6 +156,15 @@ h2 {
 
 	.text01 {
 		padding: 25px;
+	}
+
+	.animation {
+   		transition: width 2s, height 2s, ease-out 2s;
+	}
+
+	.animation:hover {
+		width: 100%;
+   		transform: scale(1.5);
 	}
 }
 
@@ -208,6 +217,15 @@ h2 {
 
 	.button {
 		font-size: 14px;
+	}
+
+	.animation {
+   		transition: width 2s, height 2s, ease-out 2s;
+	}
+
+	.animation:hover {
+		width: 100%;
+   		transform: scale(1.5);
 	}
 
 }
@@ -263,6 +281,15 @@ h2 {
 	
 	.button {
 		font-size: 16px;
+	}
+
+	.animation {
+   		transition: width 2s, height 2s, ease-out 2s;
+	}
+
+	.animation:hover {
+		width: 100%;
+   		transform: scale(1.5);
 	}
 }
 
@@ -335,6 +362,15 @@ h2 {
 
 	.kaasontdekking {
 		font-size: 24px;
+	}
+
+	.animation {
+   		transition: width 2s, height 2s, ease-out 2s;
+	}
+
+	.animation:hover {
+		width: 100%;
+   		transform: scale(1.5);
 	}
 
 }
